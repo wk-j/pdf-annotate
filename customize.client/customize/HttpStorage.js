@@ -35,6 +35,7 @@ export class Http2 extends StoreAdapter {
             },
 
             addAnnotation(documentId, pageNumber, annotation) {
+                console.log(annotation);
                 var url = `${root}/addAnnotation`;
                 return new Promise((resolve, reject) => {
                     annotation.page = pageNumber;

@@ -4,9 +4,9 @@ var plugins = [];
 module.exports = {
     devtool: 'source-map',
     plugins: plugins,
-    entry: './server.client/index.js',
+    entry: './customize.client/index.js',
     output: {
-        filename: 'server/PdfAnnotation/wwwroot/index.js',
+        filename: 'customize.server/PdfAnnotation/wwwroot/index.js',
         library: 'PDFAnnotate',
         libraryTarget: 'umd'
     },

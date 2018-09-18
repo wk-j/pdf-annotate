@@ -6730,6 +6730,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                });
 	            },
 	            addAnnotation: function addAnnotation(documentId, pageNumber, annotation) {
+	                console.log(annotation);
 	                var url = root + "/addAnnotation";
 	                return new Promise(function (resolve, reject) {
 	                    annotation.page = pageNumber;

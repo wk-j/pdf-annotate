@@ -1,13 +1,16 @@
-namespace PdfAnnoation.Controllers {
+namespace PdfAnnoation.Controllers
+{
 
-    public class Rectangle {
+    public class Rectangle
+    {
         public double Height { set; get; }
         public double Width { set; get; }
         public double X { set; get; }
         public double Y { set; get; }
     }
 
-    public class AnnotationInfo {
+    public class AnnotationInfo
+    {
         // Common
         public string Class { set; get; }
         public string Type { set; get; }
@@ -31,11 +34,17 @@ namespace PdfAnnoation.Controllers {
         public string Content { set; get; }
         public double Height { set; get; }
 
+        // Circle
+        public double Cx { set; get; }
+        public double Cy { set; get; }
+        public double R { set; get; }
+
         // Extra
         public string Document { set; get; }
     }
 
-    public class CommentInfo {
+    public class CommentInfo
+    {
         public string Class { set; get; }
         public string Type { set; get; }
         public string Annotation { set; get; }

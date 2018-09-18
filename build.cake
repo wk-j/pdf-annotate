@@ -2,7 +2,7 @@
 
 using PS = StartProcess.Processor;
 Task("Prepare").Does(() => {
-    CopyDirectory("prebuild", "server/PdfAnnotation/wwwroot");
+    CopyDirectory("prebuild", "customize.server/PdfAnnotation/wwwroot");
     PS.StartProcess("npm run build");
 });
 
