@@ -4,3 +4,7 @@ sandbox/shared
 web/shared
 web-dist
 npm-debug.log
+
+**/bin
+**/obj
+tools
