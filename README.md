@@ -8,3 +8,10 @@ Annotation layer for [pdf.js](https://github.com/mozilla/pdf.js)
 - Optional high level UI for managing annotations.
 - Agnostic of backend, just supply your own `StoreAdapter` to fetch/store data.
 - Prescribe annotation format.
+
+## Build
+
+```bash
+cake -target=Prepare
+dotnet run --project customize.server/PdfAnnotation/PdfAnnotation.csproj
+```

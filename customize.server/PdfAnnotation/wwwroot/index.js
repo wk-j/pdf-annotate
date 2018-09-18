@@ -74,6 +74,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	PDFJS.disableTextLayer = false;
+	
 	function getDocumentId() {
 	    var path = window.location.href;
 	    var url = new URL(path);
